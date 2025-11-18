@@ -10,6 +10,7 @@ public class Task01Main {
     }
 
     static void codeWithNPE() {
-        //todo напишите здесь свою корректную реализацию этого метода, вместо существующей
+        Object null_ref = null;
+        null_ref.toString();//todo напишите здесь свою корректную реализацию этого метода, вместо существующей
     }
 }
